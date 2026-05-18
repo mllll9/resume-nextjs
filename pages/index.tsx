@@ -4,7 +4,6 @@ import { Container } from 'reactstrap';
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 import { Education } from '../component/education';
-import { Etc } from '../component/etc';
 import { Experience } from '../component/experience';
 import { Footer } from '../component/footer';
 import { Introduce } from '../component/introduce';
@@ -35,7 +34,7 @@ function Yosume() {
         <Presentation.Component payload={Payload.presentation} />
         <Article.Component payload={Payload.article} />
         <Education.Component payload={Payload.education} />
-        <Footer.Component payload={Payload.footer} />
+        npm <Footer.Component payload={Payload.footer} />
       </Container>
     </>
   );
